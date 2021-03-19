@@ -1,0 +1,549 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+html, body {
+    padding: 0;
+    margin: 0;
+    background-color: #2c363a;
+    color: #fff;
+    font-family: 'Poppins', sans-serif;
+    overflow: hidden;
+}
+
+header {
+    text-align: center;
+    line-height: 11px;
+    left: 50%;
+    transform: translate(-50%);
+    top: 10px;
+    position: absolute;
+    z-index: 100;
+    
+
+
+}
+
+.text {
+    position: absolute;
+    text-align: center;
+    top: 140px;
+    left: 50%;
+    transform: translate(-50%);
+    display: flex;
+    flex-direction: column;
+    z-index: 100;
+   
+}
+
+
+
+img {
+    width: 45px;
+    margin-top: 0;
+    margin-right: 5px;
+    margin-left: 5px;
+    margin-bottom: px;
+    z-index: 00;
+    
+}
+
+h1{
+    font-size: 45px;
+    line-height: 1;
+    
+    
+}
+
+h3 {
+    font-weight: 500;
+    line-height: 1;
+    font-size: 25px;
+    font-weight: 500;
+    margin: 4px;
+}
+
+h4 {
+    font-weight: 500;
+    line-height: 1;
+    font-size: 15px;
+    margin: 4px;
+    
+
+}
+
+.sec {
+    width: 100%;
+    height: 100%;
+}
+
+.clouds {
+    width: 100%;
+    height: 100%;
+}
+
+.cloud {
+    position: absolute;
+    width: 80px;
+    top: -30px;
+    left: 90vw;
+    z-index: 100;
+    
+
+}
+
+
+
+.video {
+    width: 180px;
+    height: auto;
+    position: absolute;
+    top: 50vh;
+    left: 50vw;
+    z-index: -1;
+    left: 50%;
+    transform: translate(-50%);
+    
+}
+
+.thr {
+    width: 100%;
+    height: 100%;
+}
+
+.video1 {
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%);
+    width: 350px;
+    z-index: 5;
+}
+
+.hehe {
+    width: 100%;
+    height: 100%;
+}
+
+.hehe1 {
+    position: absolute;
+    width: 400px;
+    left: 0%;
+    z-index: 100;
+}
+
+.five {
+    width: 100%;
+    height: 100%;
+}
+
+.stars {
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+    width: 500px;
+    top: 20px;
+
+}
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 640px) {
+    .video1 {
+        visibility: hidden;
+    }
+}
+
+@media (min-width: 640px) {
+    .video {
+        width: 300px;
+        top: 35vh;
+        left: 15%;
+    }
+
+    .text {
+        position: absolute;
+        top: 70vh;
+        left: 85%;
+        text-align: right;
+        display: flex;
+        flex-direction: column;
+    
+    }
+
+    h3 {
+        font-weight: 500;
+        line-height: 1;
+        font-size: 25px;
+        font-weight: 500;
+        margin: 4px;
+    }
+    
+    h4 {
+        font-weight: 500;
+        line-height: 1;
+        font-size: 15px;
+        margin: 4px;
+        
+    
+    }
+
+    .cloud {
+        position: absolute;
+        width: 80px;
+        top: 20px;
+        left: 90vw;
+        
+    
+    }
+
+    .hehe1 {
+        position: absolute;
+        width: 900px;
+        left: 20%;
+        
+    }
+
+    .stars {
+        position: absolute;
+        width:900px;
+        top: -20%;
+        left: 50vw;
+        transform: translate(-50%);
+    
+    }
+    
+}
+
+
+
+@media (min-width: 640px) {
+    .video1 {
+        width: 250px;
+        position: absolute;
+        left: 57%;
+        
+        
+    }
+
+    .video {
+        width: 200px;
+        top: 40vh;
+        left: 20%;
+    }
+    h1 {
+        font-size: 50px
+    }
+
+    .text {
+        position: absolute;
+        top: 70vh;
+        left: 78%;
+        text-align: right;
+        display: flex;
+        flex-direction: column;
+    
+    }
+    h3 {
+        font-weight: 500;
+        line-height: 1;
+        font-size: 25px;
+        font-weight: 500;
+        margin: 4px;
+    }
+    
+    h4 {
+        font-weight: 500;
+        line-height: 1;
+        font-size: 18px;
+        margin: 4px;
+        
+    
+    }
+
+    
+    .stars {
+        position: absolute;
+        width:900px;
+        top: 0%;
+        left: 50vw;
+        transform: translate(-50%);
+    
+    }
+
+    .cloud {
+        position: absolute;
+        width: 60px;
+        top: 5%;
+        left: 85vw;
+        z-index: 100;
+        
+    
+    }
+}
+
+@media (min-width: 740px) {
+    .video1 {
+        width: 250px;
+        position: absolute;
+        left: 50%;
+    }
+
+    h1{
+        font-size: 60px;
+        line-height: 1;
+        
+    }
+
+    .video {
+        width: 210px;
+        top: 40vh;
+        left: 15%;
+    }
+
+    .text {
+        position: absolute;
+        top: 70vh;
+        left: 80%;
+        text-align: right;
+        display: flex;
+        flex-direction: column;
+    
+    }
+
+    
+    .stars {
+        position: absolute;
+        width:1000px;
+        top: 0%;
+        left: 50vw;
+        transform: translate(-50%);
+    
+    }
+
+    .cloud {
+        position: absolute;
+        width: 70px;
+        top: 5%;
+        left: 80vw;
+        z-index: 100;
+        
+    
+    }
+}
+
+@media (min-width: 1000px) {
+    .video1 {
+        width: 300px;
+        position: absolute;
+        left: 50%;
+    }
+
+    h1{
+        font-size: 60px;
+        line-height: 1;
+        
+    }
+
+    h3 {
+        font-weight: 500;
+        line-height: 1;
+        font-size: 30px;
+        font-weight: 500;
+        margin: 4px;
+    }
+    
+    h4 {
+        font-weight: 500;
+        line-height: 1;
+        font-size: 20px;
+        margin: 4px;
+        
+    
+    }
+    img {
+        width: 50px;
+    }
+
+    .video {
+        width: 250px;
+        top: 40vh;
+        left: 15%;
+    }
+
+    .text {
+        position: absolute;
+        top: 70vh;
+        left: 85%;
+        text-align: right;
+        display: flex;
+        flex-direction: column;
+    
+    }
+
+    
+    .stars {
+        position: absolute;
+        width:1300px;
+        top: 0%;
+        left: 50vw;
+        transform: translate(-50%);
+    
+    }
+
+    .cloud {
+        position: absolute;
+        width: 80px;
+        top: 5%;
+        left: 90vw;
+        z-index: 100;
+        
+    
+    }
+}
+
+@media (min-width: 1500px) {
+    .video1 {
+        width: 350px;
+        position: absolute;
+        left: 50%;
+    }
+
+    h1{
+        font-size: 75px;
+        line-height: 1;
+        
+    }
+
+    h3 {
+        font-weight: 500;
+        line-height: 1;
+        font-size: 30px;
+        font-weight: 500;
+        margin: 4px;
+    }
+    
+    h4 {
+        font-weight: 500;
+        line-height: 1;
+        font-size: 23px;
+        margin: 4px;
+        
+    
+    }
+    img {
+        width: 65px;
+    }
+
+
+    .video {
+        width: 300px;
+        top: 40vh;
+        left: 15%;
+    }
+
+    .text {
+        position: absolute;
+        top: 70vh;
+        left: 85%;
+        text-align: right;
+        display: flex;
+        flex-direction: column;
+    
+    }
+
+    
+    .stars {
+        position: absolute;
+        width:1500px;
+        top: 0%;
+        left: 50vw;
+        transform: translate(-50%);
+    
+    }
+
+    .cloud {
+        position: absolute;
+        width: 90px;
+        top: 5%;
+        left: 90vw;
+        z-index: 100;
+        
+    
+    }
+}
+
+
+@media (min-width: 1900px) {
+    .video1 {
+        width: 450px;
+        position: absolute;
+        left: 50%;
+    }
+
+    h1{
+        font-size: 90px;
+        line-height: 1;
+        
+    }
+
+    h3 {
+        font-weight: 500;
+        line-height: 1;
+        font-size: 35px;
+        font-weight: 500;
+        margin: 4px;
+    }
+    
+    h4 {
+        font-weight: 500;
+        line-height: 1;
+        font-size: 25px;
+        margin: 4px;
+        
+    
+    }
+    img {
+        width: 70px;
+    }
+
+    .video {
+        width: 400px;
+        top: 35vh;
+        left: 15%;
+    }
+
+    .text {
+        position: absolute;
+        top: 70vh;
+        left: 85%;
+        text-align: right;
+        display: flex;
+        flex-direction: column;
+    
+    }
+
+    .stars {
+        position: absolute;
+        width:2000px;
+        top: 0%;
+        left: 50vw;
+        transform: translate(-50%);
+    
+    }
+
+    .cloud {
+        position: absolute;
+        width: 100px;
+        top: 5%;
+        left: 90vw;
+        z-index: 100;
+        
+    
+    }
+}
